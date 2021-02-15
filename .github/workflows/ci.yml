@@ -1,0 +1,14 @@
+name: ci
+on: [push]
+jobs:
+  test:
+    runs-on: macOS-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Test new environment
+      run: |
+        ls
+        chmod +x pipeline/01-unit.sh
+	chmod +x pipeline/02-lint.sh
+        pipeline/01-unit.sh
+	pipeline/02-lint.sh
