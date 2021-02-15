@@ -1,0 +1,6 @@
+framework module ronnie_ksh {
+  umbrella header "ronnie-ksh-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double KushkiVersionNumber;
-FOUNDATION_EXPORT const unsigned char KushkiVersionString[];
+FOUNDATION_EXPORT double ronnie_kshVersionNumber;
+FOUNDATION_EXPORT const unsigned char ronnie_kshVersionString[];
 

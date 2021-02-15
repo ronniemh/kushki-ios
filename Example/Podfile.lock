@@ -1,5 +1,4 @@
 PODS:
-  - Kushki (2.2.2)
   - OHHTTPStubs (9.1.0):
     - OHHTTPStubs/Default (= 9.1.0)
   - OHHTTPStubs/Core (9.1.0)
@@ -15,24 +14,25 @@ PODS:
   - OHHTTPStubs/OHPathHelpers (9.1.0)
   - OHHTTPStubs/Swift (9.1.0):
     - OHHTTPStubs/Default
+  - ronnie-ksh (1.0.0)
 
 DEPENDENCIES:
-  - Kushki (from `../`)
   - OHHTTPStubs
   - OHHTTPStubs/Swift
+  - ronnie-ksh (from `../`)
 
 SPEC REPOS:
   trunk:
     - OHHTTPStubs
 
 EXTERNAL SOURCES:
-  Kushki:
+  ronnie-ksh:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Kushki: ad7315a8479bb3a6ea7fbb75e835fb5e017929a6
   OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
+  ronnie-ksh: 32453c6e5212034b70a680a7f10decec18f86f5b
 
-PODFILE CHECKSUM: 016b832a3bd154336e714dcab90050a7a8b1c29f
+PODFILE CHECKSUM: c7606b9d96f9ad5b14f74aaeefed3e39e3a72328
 
 COCOAPODS: 1.10.1

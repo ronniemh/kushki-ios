@@ -1,0 +1,22 @@
+{
+  "name": "ronnie-ksh",
+  "version": "1.0.0",
+  "summary": "test",
+  "description": "test",
+  "homepage": "https://github.com/ronniemh/kushki-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kushki": "remf.mh@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ronniemh/kushki-ios.git",
+    "tag": "v1.0.0"
+  },
+  "platforms": {
+    "ios": "12.1"
+  },
+  "source_files": "Kushki/Classes/**/*"
+}

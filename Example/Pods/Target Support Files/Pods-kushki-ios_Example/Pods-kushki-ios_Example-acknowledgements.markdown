@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Kushki
+## ronnie-ksh
 
 Copyright (c) 2016 Kushki <soporte@kushkipagos.com>
 
