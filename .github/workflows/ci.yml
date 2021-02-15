@@ -8,6 +8,8 @@ jobs:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v2
+      env:
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
     - name: Upload version
       run: |
         chmod +x pipeline/03-distribute.sh
