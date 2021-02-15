@@ -1,14 +1,14 @@
-name: ci
-on: [push]
+name: cd
+on: 
+  push:
+    branch:
+      - master  
 jobs:
-  test:
+  master:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Test new environment
+    - name: Upload version
       run: |
-        ls
-        chmod +x pipeline/01-unit.sh
-	chmod +x pipeline/02-lint.sh
-        pipeline/01-unit.sh
-	pipeline/02-lint.sh
+        chmod +x pipeline/03-distribute.sh
+        pipeline/03-distribute.sh
